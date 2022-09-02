@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import dayjs from "dayjs";
-import GlobalContext from "../context/GlobalContext";
+import GlobalContext from "../../context/GlobalContext";
 
 function Day({ day, rowIdx }) {
   console.log(dayjs().endOf("month").date());

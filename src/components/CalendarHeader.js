@@ -63,9 +63,9 @@ function CalendarHeader() {
             </span>
           </button>
           <div className="calendar-header__date">
-            <h2 className="calendar-header__date__text">
+            <h3 className="calendar-header__date__text">
               {dayjs(new Date(dayjs().year(), monthIndex)).format("MMMM YYYY")}
-            </h2>
+            </h3>
           </div>
 
           <button

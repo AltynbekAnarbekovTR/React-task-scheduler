@@ -69,7 +69,9 @@ function EventModal() {
               }}
             />
             <span className="material-icons-outlined text-gray">schedule</span>
-            <p>{daySelected.format("dddd, MMMM DD")}</p>
+            <p className="event-modal__time">
+              {daySelected.format("dddd, MMMM DD")}
+            </p>
             <span className="material-icons-outlined text-gray">segment</span>
             <input
               type="text"
