@@ -61,8 +61,8 @@ button {
 }
 
 .day {
-  height: 80px;
-  max-width: 80px;
+  /* height: 100%;
+  max-width: 100%; */
   border: 1px solid rgb(156, 163, 175);
   display: flex;
   flex-direction: column;
@@ -381,8 +381,8 @@ button {
   display: grid;
   /* grid-template-columns: repeat(7, minmax(0, 1fr));
   grid-template-rows: repeat(5, minmax(0, 1fr)); */
-  grid-template-columns: repeat(7, 1fr);
-grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+grid-template-rows: repeat(5, minmax(0, 1fr));
 }
 .sidebar-container {
   width: 30%;
