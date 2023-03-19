@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# React task scheduler
+<img src="https://user-images.githubusercontent.com/62358513/226198520-f48d4a22-c95e-4b96-85db-dca827bea05d.JPG" style="max-width: 200px; height: 200px;">
+
+React task scheduler using react and tailwindCSS. In this app you have a calendar where you can add your task for a day.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
